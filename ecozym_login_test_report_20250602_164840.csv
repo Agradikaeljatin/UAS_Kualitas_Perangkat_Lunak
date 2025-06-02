@@ -1,0 +1,10 @@
+Test Case ID,Test Case Name,Description,Expected Result,Actual Result,Status,Timestamp,Error Message
+"TC001","Valid Login Test","Login with valid email (user@gmail.com) and password (12345678)","User should be able to login successfully and redirected to dashboard","Login successful, redirected to main page","PASS","2025-06-02 16:48:17",""
+"TC002","Invalid Login Test","Login with invalid email and password","Error message should be displayed","No error message found","FAIL","2025-06-02 16:48:29","Expected error message but none was displayed"
+"TC003","Empty Fields Login Test","Login with empty email and password fields","Validation error message should be displayed","No validation error message found","FAIL","2025-06-02 16:48:40","Expected validation error but none was displayed"
+
+=== TEST SUMMARY ===
+Total Test Cases,3
+Passed,1
+Failed,2
+Pass Rate,33.33%

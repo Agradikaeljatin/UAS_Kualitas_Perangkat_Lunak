@@ -1,0 +1,10 @@
+Test Case ID,Test Case Name,Description,Expected Result,Actual Result,Status,Timestamp,Error Message
+"TC001","Valid Login Test","Login with valid email (user@gmail.com) and password (12345678)","User should be able to login successfully and redirected to dashboard","Exception occurred during test execution","FAIL","2025-06-02 17:42:05","Expected condition failed: waiting for element to be clickable: By.id: com.ecozym.wastemanagement:id/btn_signIn (tried for 20 second(s) with 500 milliseconds interval)"
+"TC002","Invalid Login Test","Login with invalid email and password","Error message should be displayed","Exception occurred during test execution","FAIL","2025-06-02 17:43:14","Sign In button not available after waiting"
+"TC003","Empty Fields Login Test","Login with empty email and password fields","Validation error message should be displayed","Exception occurred during test execution","FAIL","2025-06-02 17:44:21","Sign In button not available after waiting"
+
+=== TEST SUMMARY ===
+Total Test Cases,3
+Passed,0
+Failed,3
+Pass Rate,0.00%
